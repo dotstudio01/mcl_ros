@@ -1,7 +1,5 @@
 # Monte Carlo Localition Using Landmark Map
-**This is the implementation of Monte Carlo localization used in landmark learning.
-
-As described in the ICCV 2015 paper **PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization** Alex Kendall, Matthew Grimes and Roberto Cipolla [http://mi.eng.cam.ac.uk/projects/relocalisation/]
+** This is the implementation of Monte Carlo localization used in landmark learning.
 
 ## Getting Started
 
