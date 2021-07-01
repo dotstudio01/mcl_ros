@@ -1,0 +1,8 @@
+<launch>
+    <param name = "cloud_map_path" value = "/home/jason/src/attention_loc/mcl_workspace/data_storage/kitti_00_with_label/cloud_clean_000.pcd" />
+    <param name = "pose_path" value = "/home/jason/src/attention_loc/mcl_workspace/mcl_data/kitti_00/pose.txt" />
+    <param name = "image_path" value = "/home/jason/src/attention_loc/mcl_workspace/mcl_data/kitti_00/images" />
+    <param name = "label_path" value = "/home/jason/src/attention_loc/mcl_workspace/mcl_data/kitti_00/labels" />
+    <node name = "MonteCarloLocalizer" pkg="mcl_ros" type="MonteCarloLocalizer" output="screen" />
+    <!-- <node name = "rviz" pkg="rviz" type="rviz" output="screen" /> -->
+</launch>
